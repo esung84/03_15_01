@@ -95,7 +95,7 @@ nav>.reservation>a {
 #slider {
     width: 100%;
     height: 900px;
-    background-image: url("../img/slider1.jpg");
+    background-image: url("https://cdn.thedesignstory.com/collection/pin-rdzp-1549966814-original-0.jpg");
     background-size: cover;
     background-position: center;
     position: relative;
@@ -219,8 +219,8 @@ section>#about {
 
 section>#menu {
     width: 100%;
-    height: 1150px;
-    background-color: rgb(38, 38, 38);
+    height: 1250px;
+    background-color: rgb(24, 24, 24);
     display: flex;
     flex-flow: column wrap;
     align-items: center;
@@ -231,9 +231,10 @@ section>#menu {
 
 #menu>.list {
     width: 1200px;
-    height: 800px;
+    height: 900px;
     text-align: center;
     padding: 100px 20px;
+
 
 }
 
@@ -274,41 +275,46 @@ section>#menu {
 }
 
 .menu_list>table {
-    width: 45%;
+    width: 43%;
     margin: 20px 0;
 }
 
 .menu_list>table td {
-    border-bottom: 1px dashed #fff;
+    border-bottom: 1px dashed #666;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
 }
 
 .menu_list>table h3 {
-    font-size: 14px;
+    font-size: 13px;
     line-height: 20px;
     font-weight: bold;
     letter-spacing: 2px;
     color: #fff;
+    margin: 20px 0 0 0;
 }
 
 .menu_list>table p {
     font-size: 15px;
     line-height: 20px;
-    margin: 0 0 20px 0;
-    color: #eee;
+    margin: 5px 0 20px 0;
+    color: #666;
 }
 
 .list>button {
     width: 200px;
     height: 50px;
     border: 2px solid #fff;
-    margin: 50px;
+    margin: 100px;
     background-color: rgb(0, 0, 0, 0);
     color: #fff;
     font-weight: bold;
     letter-spacing: 2px;
+}
+
+.list>button:hover {
+    cursor: pointer;
 }
 
 #menu>.signature {
@@ -333,19 +339,19 @@ section>#menu {
     z-index: 1;
 }
 
-.signature >.signature_text {
+.signature>.signature_text {
     width: 1200px;
     height: 100%;
     margin: 0 auto;
     z-index: 5;
-    padding:80px 0;
+    padding: 80px 0;
 }
 
 .signature_text>span {
     font-weight: bold;
     font-size: 12px;
     color: #fff;
-    
+
     letter-spacing: 2px;
     width: 100%;
     z-index: 5;
@@ -357,7 +363,7 @@ section>#menu {
     color: #fff;
     z-index: 5;
     line-height: 70px;
-    margin:20px 0 ;
+    margin: 20px 0;
 }
 
 .signature_text>p {
@@ -372,39 +378,331 @@ section>#menu {
 #gallery {
     width: 90vw;
     height: 90vh;
-    padding:50px 0;
-    display:flex; 
-    flex-direction:row;
-    flex-wrap:wrap;
+    padding: 50px 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-content: space-between;
-    
+
 }
 
-#gallery > .pic {width:32%; height:48%; overflow:hidden; }
-.pic > a >img {width:100%; height:100%; transition:0.5s;}
-.pic > a >img:hover {opacity:0.8;}
+#gallery>.pic {
+    width: 32%;
+    height: 48%;
+    overflow: hidden;
+}
+
+.pic>a>img {
+    width: 100%;
+    height: 100%;
+    transition: 0.5s;
+}
+
+.pic>a>img:hover {
+    opacity: 0.8;
+}
+
 #chef {
     width: 1200px;
-    height: 800px;
-    background-color: blueviolet;
+    height: 1500px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#chef>.chef_box {
+    width: 49%;
+    height: 85%;
+    margin: 10% 0;
+
+}
+
+.chef_box>h1 {
+    font-size: 45px;
+    line-height: 60px;
+    font-weight: bold;
+    color: #202020;
+
+}
+
+.chef_box p {
+    font-size: 17px;
+    line-height: 25px;
+    margin: 10px 0 50px 0;
+    color: #666;
+    width: 90%;
+}
+
+.chef_box>.chef-2 {
+    width: 100%;
+    height: 70%;
+}
+
+.chef_box>.chef-1 {
+    width: 60%;
+    height: 40%;
+    margin: 0 0 0 10%;
+}
+
+.chef_box>.chef-3 {
+    width: 90%;
+    height: 55%;
+    margin: 10% 0 0 10%;
 }
 
 
 #review {
     width: 100%;
-    height: 300px;
-    background-color: bisque;
+    height: 600px;
+
+    position: relative;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    text-align: center;
+
 }
 
+#review>span {
+    font-weight: bold;
+    font-size: 12px;
+    color: #fff;
+    letter-spacing: 2px;
+    z-index: 5;
+
+    width: 100%;
+    height: 30px;
+    margin: 110px 0 0 0;
+}
+
+#review>h1 {
+    font-weight: bold;
+    font-size: 50px;
+    color: #fff;
+    z-index: 5;
+    line-height: 60px;
+    margin: 20px 0;
+    width: 100%;
+
+    height: 50px;
+    position: relative;
+    top: -30px;
+    left: 0;
+}
+
+
+#review>.background_review {
+    width: 100%;
+    height: 80%;
+    background-image: url(../img/slider2.jpg);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    left: 0;
+    top: 0;
+
+}
+
+
+.background_review>.tonedown {
+    width: 100%;
+    height: 100%;
+    background-color: #202020;
+    opacity: 0.7;
+}
+
+
+#review>.review_box {
+    width: 370px;
+    height: 270px;
+    background-color: #202020;
+    margin: 20px;
+    z-index: 5;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.review_box>img {
+    width: 80px;
+    height: 80px;
+    border: 5px solid gold;
+    border-radius: 50%;
+    position: relative;
+    top: -70px;
+    left: 0;
+
+}
+
+.review_box>p {
+    color: #fff;
+    font-size: 16px;
+    line-height: 25px;
+    padding: 15px 0;
+    position: relative;
+    top: -70px;
+    left: 0;
+}
+
+.review_box>p:last-of-type {
+    letter-spacing: 2px;
+}
+
+
 #reservation {
-    width: 700px;
-    height: 400px;
-    background-color: aquamarine;
+    width: 100vw;
+    height: 550px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+    padding: 100px 30px;
+    position: relative;
+}
+
+#reservation>h3 {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+#reservation>p {
+    font-size: 16px;
+    color: #666;
+    line-height: 25px;
+    margin: 30px 0;
+}
+
+#reservation>button {
+    font-weight: bold;
+    display: block;
+    font-size: 13px;
+    letter-spacing: 2px;
+    text-align: center;
+    padding: 10px 20px;
+    border: 1px solid #000;
+    background-color: #fff;
+    margin: 0 0 40px 0;
+}
+
+#reservation>button:hover {
+    cursor: pointer;
+}
+
+#reservation>span {
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin: 20px;
+}
+
+#reservation>img {
+    position: absolute;
+    left: 85vw;
+    bottom: -100px;
 }
 
 footer {
     width: 100%;
-    height: 400px;
-    background-color: black;
+    height: 600px;
+    background-color: rgb(25, 25, 25);
+    display: flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items: center;
 }
+
+footer a {
+    color: #fff;
+}
+
+
+footer>.footer_box {
+    width: 250px;
+    height: 300px;
+    
+    margin: 80px 15px 0px 0;
+}
+
+footer>.footer_box:first-of-type {
+    width: 340px;
+}
+
+footer>.footer_box>h5 {
+    font-size: 25px;
+    color: #fff;
+    font-weight: bold;
+    margin: 10px 0;
+    width:200px;
+    display: flex;
+    align-items: center;
+    
+}
+footer>.footer_box>h5>img {width:30px; height:30px; margin:0 15px 0 0;}
+
+.footer_box>p {
+    font-size: 15px;
+    color: #fff;
+    line-height: 25px;
+    margin: 20px 0;
+
+}
+
+.footer_box>a>span>i {
+    font-size: 23px;
+    color: #fff;
+    margin: 10px 10px 0 5px;
+}
+
+.footer_box>a>span>i:hover {
+    color: gold;
+}
+
+.footer_box>a>span:hover {
+    color: gold;
+}
+
+.footer_box>ul {
+    margin: 20px 0;
+}
+
+.footer_box>ul>li {
+    line-height: 25px;
+    font-size: 16px;
+}
+
+.footer_box>ul>li>a:hover {
+    color: gold;
+}
+
+.footer_box>img {
+    width: 30px;
+    height: 30px;
+}
+
+.footer_box>.clock {
+    width: 200px;
+    height: 30px;
+    display: inline-block;
+}
+
+.footer_box>button {
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    background-color: #00000000;
+    border: 1px solid #fff;
+    padding: 10px 20px;
+    margin: 10px 0;
+}
+
+.footer_box>button:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+footer > .last {width:100%; height:100px; border-top:1px solid #666; display:flex; justify-content: space-around; align-items: center;}
+.last > p {color:#eee;font-size: 14px;}
